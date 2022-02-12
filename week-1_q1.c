@@ -5,8 +5,8 @@
    int main(){
     char name[20];
     char regd[3];
-    char branch[18];
-    char hobbies[17];
+    char branch[25];
+    char hobbies[200];
 
     printf("Enter your name here : ");
     fgets(name, 20, stdin);
@@ -15,11 +15,11 @@
     scanf("%s", &regd);
 
     printf("Enter your branch here : ");
-    fgets(branch, 18, stdin);
-    fgets(branch, 18, stdin);
+    fgets(branch, 25, stdin);
+    fgets(branch, 25, stdin);
 
     printf("Enter your hobbies here : ");
-    fgets(hobbies, 17, stdin);
+    fgets(hobbies, 200, stdin);
 
     printf("Name :- %s", name);
     printf("Registration Number :- %s \n", regd);
